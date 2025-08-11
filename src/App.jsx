@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      {/* 좋아요 섹션 */}
+      {/* 추가 좋아요 섹션 */}
       <div>
         <h1>❤️ {likes}</h1>
         <button onClick={() => setLikes(likes + 1)}>좋아요!</button>
