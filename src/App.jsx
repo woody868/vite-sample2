@@ -11,7 +11,7 @@ function App() {
       {/* 추가 좋아요 섹션 */}
       <div>
         <h1>❤️ {likes}</h1>
-        <button onClick={() => setLikes(likes + 1)}>찜찜!</button>
+        <button onClick={() => setLikes(likes + 1)}>좋아요!</button>
       </div>
 
       <hr />
